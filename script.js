@@ -1,4 +1,4 @@
-var pvCzas = 0.25;
+var pvCzas = 1;
 var pvPingAddy = "https://192.168.0.125/";
 var pvMp3Addy = chrome.runtime.getURL("NukeWarning.mp3");
 
