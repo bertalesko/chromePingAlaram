@@ -1,6 +1,6 @@
 var pvCzas = 1;
 var pvPingAddy = "https://192.168.0.125/";
-var pvMp3Addy = "https://github.com/bertalesko/chromePingAlaram/blob/main/NukeWarning.mp3";
+var pvMp3Addy = "https://bartbart.co/NukeWarning.mp3";
 
 
 setTimeout(function() 
@@ -39,6 +39,10 @@ setTimeout(function()
 			startujButton.innerText = "Startuj!";		
 			startujButton.addEventListener("click", (e) => {
 				setInterval(outer2, (pvCzas * 60000));
+				if (startujButton.innerText == "Startuj!")
+				{
+					startujButton.innerText = "Dzialam!"
+				}
 				});
 		}
 		
