@@ -1,6 +1,6 @@
 var pvCzas = 1;
 var pvPingAddy = "https://192.168.0.125/";
-var pvMp3Addy = "https://bartbart.co/NukeWarning.mp3";
+var pvMp3Addy = "https://github.com/bertalesko/chromePingAlaram/blob/main/NukeWarning.mp3";
 
 
 setTimeout(function() 
