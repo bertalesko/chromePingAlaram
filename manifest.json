@@ -1,0 +1,20 @@
+{
+  "name": "Ping Alarm",
+  "version": "1.0",
+  "description": "Jebac Biede zanim bieda cie dojebie",
+  "permissions":   
+  [    
+	"scripting",
+    "activeTab"	 
+  ],    
+  "content_scripts": 
+  [
+	  {
+		  "matches": ["https://www.youtube.com/*","http://www.youtube.com/*"],
+		  "js": ["script.js"]        
+	  }
+  ],
+  "manifest_version": 3
+}
+
+
