@@ -1,6 +1,6 @@
-var pvCzas = 1;
+var pvCzas = 0.25;
 var pvPingAddy = "https://192.168.0.125/";
-var pvMp3Addy = "https://bartbart.co/NukeWarning.mp3";
+var pvMp3Addy = chrome.runtime.getURL("NukeWarning.mp3");
 
 
 setTimeout(function() 
@@ -63,15 +63,13 @@ function outer2()
         ping(pvPingAddy).then(function(delta) {
            console.log(String(error));
         }).catch(function(error) 
-		{
-			alert("Brak odpowiedzi");
+		{				
 			var audio = new Audio(pvMp3Addy);
 			audio.play();			
 			
         });  
 
 }
-
 
 
 

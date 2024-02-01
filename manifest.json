@@ -5,7 +5,7 @@
   "permissions":   
   [    
 	"scripting",
-    "activeTab"	 
+    "activeTab"	
   ],    
   "content_scripts": 
   [
@@ -14,6 +14,15 @@
 		  "js": ["script.js"]        
 	  }
   ],
+  "web_accessible_resources": 
+  [{
+	
+		"resources" : ["NukeWarning.mp3"],
+		 "matches": ["<all_urls>"]
+	
+  }],
+  
+  
   "manifest_version": 3
 }
 
